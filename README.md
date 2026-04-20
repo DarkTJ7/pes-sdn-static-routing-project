@@ -144,6 +144,34 @@ Note:
 
 This Mac workspace does not include Mininet/Open vSwitch/Ryu, so authentic runtime screenshots must be captured in a Linux environment where the project is executed.
 
+### Screenshot 1: Flow Table Proof
+
+![Flow table proof placeholder](docs/proof/flow-table-placeholder.svg)
+
+Expected final capture:
+
+- `ovs-ofctl -O OpenFlow13 dump-flows s1`
+- `ovs-ofctl -O OpenFlow13 dump-flows s2`
+- `ovs-ofctl -O OpenFlow13 dump-flows s4`
+
+### Screenshot 2: Ping and Iperf Proof
+
+![Ping and iperf proof placeholder](docs/proof/ping-iperf-placeholder.svg)
+
+Expected final capture:
+
+- successful `h1 ping -c 4 h4`
+- successful `iperf h1 h4`
+
+### Screenshot 3: Regression Proof
+
+![Regression proof placeholder](docs/proof/regression-placeholder.svg)
+
+Expected final capture:
+
+- successful run of `./scripts/regression_test.sh`
+- confirmation that the static path remains unchanged after route reinstall
+
 ## References
 
 - Mininet documentation: [https://mininet.org/](https://mininet.org/)
