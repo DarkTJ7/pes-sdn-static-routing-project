@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="700" viewBox="0 0 1200 700">
+  <rect width="1200" height="700" fill="#172038"/>
+  <rect x="40" y="40" width="1120" height="620" rx="24" fill="#20304f" stroke="#ffd166" stroke-width="4"/>
+  <text x="80" y="120" fill="#ffd166" font-family="Menlo, monospace" font-size="38">Proof Placeholder: Ping and Iperf Screenshot</text>
+  <text x="80" y="210" fill="#eef4f7" font-family="Menlo, monospace" font-size="28">Capture the successful connectivity and throughput output:</text>
+  <text x="80" y="290" fill="#8ef6d1" font-family="Menlo, monospace" font-size="30">mininet&gt; h1 ping -c 4 h4</text>
+  <text x="80" y="350" fill="#8ef6d1" font-family="Menlo, monospace" font-size="30">mininet&gt; iperf h1 h4</text>
+  <text x="80" y="470" fill="#eef4f7" font-family="Menlo, monospace" font-size="26">Replace this SVG with the real runtime screenshot before submission.</text>
+  <text x="80" y="530" fill="#eef4f7" font-family="Menlo, monospace" font-size="26">Student: Tarun Jaganathan | SRN: PES1UG24AM304</text>
+</svg>

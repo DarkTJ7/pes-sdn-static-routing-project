@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="700" viewBox="0 0 1200 700">
+  <rect width="1200" height="700" fill="#101820"/>
+  <rect x="40" y="40" width="1120" height="620" rx="24" fill="#17232f" stroke="#f2aa4c" stroke-width="4"/>
+  <text x="80" y="120" fill="#f2aa4c" font-family="Menlo, monospace" font-size="38">Proof Placeholder: Flow Table Screenshot</text>
+  <text x="80" y="200" fill="#d7e3ea" font-family="Menlo, monospace" font-size="28">Capture this after running:</text>
+  <text x="80" y="260" fill="#9fe870" font-family="Menlo, monospace" font-size="30">$ ovs-ofctl -O OpenFlow13 dump-flows s1</text>
+  <text x="80" y="320" fill="#9fe870" font-family="Menlo, monospace" font-size="30">$ ovs-ofctl -O OpenFlow13 dump-flows s2</text>
+  <text x="80" y="380" fill="#9fe870" font-family="Menlo, monospace" font-size="30">$ ovs-ofctl -O OpenFlow13 dump-flows s4</text>
+  <text x="80" y="480" fill="#d7e3ea" font-family="Menlo, monospace" font-size="26">Replace this SVG with an actual screenshot for submission.</text>
+  <text x="80" y="540" fill="#d7e3ea" font-family="Menlo, monospace" font-size="26">Student: Tarun Jaganathan | SRN: PES1UG24AM304</text>
+</svg>

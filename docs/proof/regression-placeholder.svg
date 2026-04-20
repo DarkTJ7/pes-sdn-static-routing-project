@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="700" viewBox="0 0 1200 700">
+  <rect width="1200" height="700" fill="#112a23"/>
+  <rect x="40" y="40" width="1120" height="620" rx="24" fill="#1d473c" stroke="#f4d35e" stroke-width="4"/>
+  <text x="80" y="120" fill="#f4d35e" font-family="Menlo, monospace" font-size="38">Proof Placeholder: Regression Test Screenshot</text>
+  <text x="80" y="210" fill="#f3f7f4" font-family="Menlo, monospace" font-size="28">Show that the same path remains after rule reinstall:</text>
+  <text x="80" y="290" fill="#8df3c4" font-family="Menlo, monospace" font-size="30">$ ./scripts/regression_test.sh</text>
+  <text x="80" y="410" fill="#f3f7f4" font-family="Menlo, monospace" font-size="26">Expected message:</text>
+  <text x="80" y="470" fill="#8df3c4" font-family="Menlo, monospace" font-size="28">Regression test passed: static route path remained unchanged after rule reinstall.</text>
+  <text x="80" y="560" fill="#f3f7f4" font-family="Menlo, monospace" font-size="26">Student: Tarun Jaganathan | SRN: PES1UG24AM304</text>
+</svg>
