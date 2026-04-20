@@ -18,6 +18,12 @@ The assignment asks for proof of execution in the GitHub repository. Add the fol
    - show throughput between `h1` and `h4`
 7. `07-regression-result.png`
    - show that the same path is preserved after route rule reinstall
+8. `08-icmp-scenario.png`
+   - show ICMP connectivity validation using `ping`
+9. `09-tcp-scenario.png`
+   - show TCP throughput validation using `iperf`
+10. `10-udp-scenario.png`
+   - show UDP validation using `iperf -u`
 
 ## Quick Capture Workflow
 
@@ -39,6 +45,15 @@ cat artifacts/demo_run/ping_h1_to_h4.txt
 cat artifacts/demo_run/iperf_h1_h4.txt
 ```
 
+Additional scenario commands:
+
+```bash
+mininet> h1 ping -c 4 h4
+mininet> iperf h1 h4
+mininet> h4 iperf -s -u &
+mininet> h1 iperf -u -c 10.0.0.4 -b 10M -t 5
+```
+
 ## Placeholder Images
 
 The files below are placeholders so the repository already includes the proof section structure:
@@ -46,5 +61,8 @@ The files below are placeholders so the repository already includes the proof se
 - `flow-table-placeholder.svg`
 - `ping-iperf-placeholder.svg`
 - `regression-placeholder.svg`
+- `icmp-placeholder.svg`
+- `tcp-placeholder.svg`
+- `udp-placeholder.svg`
 
 Replace them with real screenshots before final submission.

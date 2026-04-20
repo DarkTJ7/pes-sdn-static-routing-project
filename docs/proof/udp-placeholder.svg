@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="700" viewBox="0 0 1200 700">
+  <rect width="1200" height="700" fill="#132a13"/>
+  <rect x="40" y="40" width="1120" height="620" rx="24" fill="#224b2a" stroke="#f4d35e" stroke-width="4"/>
+  <text x="80" y="120" fill="#f4d35e" font-family="Menlo, monospace" font-size="38">Proof Placeholder: UDP Test Scenario</text>
+  <text x="80" y="210" fill="#f3f7f4" font-family="Menlo, monospace" font-size="28">Capture UDP validation using iperf UDP mode:</text>
+  <text x="80" y="290" fill="#8df3c4" font-family="Menlo, monospace" font-size="30">mininet&gt; h4 iperf -s -u &amp;</text>
+  <text x="80" y="350" fill="#8df3c4" font-family="Menlo, monospace" font-size="30">mininet&gt; h1 iperf -u -c 10.0.0.4 -b 10M -t 5</text>
+  <text x="80" y="450" fill="#f3f7f4" font-family="Menlo, monospace" font-size="26">Expected: bandwidth, jitter, and packet loss stats.</text>
+  <text x="80" y="530" fill="#f3f7f4" font-family="Menlo, monospace" font-size="26">Replace this SVG with the real terminal screenshot.</text>
+  <text x="80" y="590" fill="#f3f7f4" font-family="Menlo, monospace" font-size="26">Student: Tarun Jaganathan | SRN: PES1UG24AM304</text>
+</svg>

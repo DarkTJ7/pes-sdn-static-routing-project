@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="700" viewBox="0 0 1200 700">
+  <rect width="1200" height="700" fill="#12263a"/>
+  <rect x="40" y="40" width="1120" height="620" rx="24" fill="#1f3b57" stroke="#f4d35e" stroke-width="4"/>
+  <text x="80" y="120" fill="#f4d35e" font-family="Menlo, monospace" font-size="38">Proof Placeholder: ICMP Test Scenario</text>
+  <text x="80" y="210" fill="#eef4f7" font-family="Menlo, monospace" font-size="28">Capture successful ICMP validation:</text>
+  <text x="80" y="300" fill="#8ef6d1" font-family="Menlo, monospace" font-size="30">mininet&gt; h1 ping -c 4 h4</text>
+  <text x="80" y="390" fill="#eef4f7" font-family="Menlo, monospace" font-size="26">Expected: 0% packet loss and reachable host over the static route.</text>
+  <text x="80" y="500" fill="#eef4f7" font-family="Menlo, monospace" font-size="26">Replace this SVG with the real terminal screenshot.</text>
+  <text x="80" y="560" fill="#eef4f7" font-family="Menlo, monospace" font-size="26">Student: Tarun Jaganathan | SRN: PES1UG24AM304</text>
+</svg>

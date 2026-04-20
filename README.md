@@ -172,6 +172,34 @@ Expected final capture:
 - successful run of `./scripts/regression_test.sh`
 - confirmation that the static path remains unchanged after route reinstall
 
+### Screenshot 4: ICMP Test Scenario
+
+![ICMP proof placeholder](docs/proof/icmp-placeholder.svg)
+
+Expected final capture:
+
+- successful `h1 ping -c 4 h4`
+- visible packet delivery over the configured route
+
+### Screenshot 5: TCP Test Scenario
+
+![TCP proof placeholder](docs/proof/tcp-placeholder.svg)
+
+Expected final capture:
+
+- successful `iperf h1 h4`
+- TCP throughput shown in terminal output
+
+### Screenshot 6: UDP Test Scenario
+
+![UDP proof placeholder](docs/proof/udp-placeholder.svg)
+
+Expected final capture:
+
+- `h4 iperf -s -u &`
+- `h1 iperf -u -c 10.0.0.4 -b 10M -t 5`
+- UDP bandwidth and loss statistics shown in terminal output
+
 ## References
 
 - Mininet documentation: [https://mininet.org/](https://mininet.org/)
